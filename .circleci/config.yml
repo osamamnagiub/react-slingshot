@@ -48,7 +48,7 @@ jobs:
       - restore_cache:
           keys:
             - "npm_packages"
-      - run: npm audir
+      - run: npm audit
      
 
 # Invoke jobs via workflows
